@@ -9,7 +9,7 @@ export default function Banner() {
       <Carousel.Item>
         <img
           className="d-block w-100 banner-img"
-          src="https://img1.akspic.ru/crops/8/5/4/1/8/181458/181458-huawei-huawei_emui-tsvetok-xiaomi-lepestok-1920x1080.jpg"
+          src="https://www.zastavki.com/pictures/originals/2015/Nature___Flowers_Blossomed_lilac_flower_on_a_black_background_110219_.jpg"
           alt="First slide"
           />
           <Carousel.Caption>
@@ -20,7 +20,7 @@ export default function Banner() {
         <Carousel.Item>
           <img
           className="d-block w-100 banner-img"
-          src="https://img2.akspic.ru/crops/9/7/2/9/7/179279/179279-tsvetok-rozovyj-tsvetnoy-cvetochnyj_dizajn-tort-1920x1080.jpg"
+          src="https://million-wallpapers.ru/wallpapers/4/38/455170667896766/bolshoj-belyj-cvetok-na-chernom-fone.jpg"
           alt="Second slide"
         />
           <Carousel.Caption>
@@ -31,8 +31,8 @@ export default function Banner() {
         <Carousel.Item>
           <img
           className="d-block w-100 banner-img"
-          src="https://img1.akspic.ru/crops/9/6/9/2/7/172969/172969-sad_roz-tsvetok-sad-gibridnaya_chajnaya_roza-cvetochnyj_buket-1920x1080.jpg"
-          alt="Second slide"
+          src="https://storge.pic2.me/upload/712/587bcf5a443f1.jpg"
+          alt="Third slide"
         />
           <Carousel.Caption>
             <h3>Для букета не нужен повод!</h3>
