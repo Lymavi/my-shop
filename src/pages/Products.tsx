@@ -47,7 +47,7 @@ export default function Products(){
   return(
     <div className="container py-4">
       <div className="d-flex justify-content-between align-items-center mb-3">
-        <h2>Products</h2>
+        <h2>Услуги</h2>
       </div>
       <ProductGridWithLoading loading={loading} products={products}/>
     </div>

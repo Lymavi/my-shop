@@ -18,12 +18,12 @@ export default function Contact() {
 
   return(
     <div className="container py-4">
-      <h2>Contact</h2>
-      {submitted && <Alert variant="success">Thanks, we will get back to you</Alert>}
+      <h2>Связаться с нами</h2>
+      {submitted && <Alert variant="success">Спасибо, мы обязательно с Вами свяжемся!</Alert>}
       <Form onSubmit={onSubmit}>
         {/* нижний отступ 3 единицы */}
         <Form.Group className="mb-3">
-          <Form.Label>Name</Form.Label>
+          <Form.Label>Имя</Form.Label>
           <Form.Control value={name} onChange={e => setName(e.target.value)} required />
         </Form.Group>
         <Form.Group className="mb-3">
@@ -31,10 +31,10 @@ export default function Contact() {
           <Form.Control type="email" value={email} onChange={e => setEmail(e.target.value)} required />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label>Message</Form.Label>
+          <Form.Label>Сообщение</Form.Label>
           <Form.Control as="textarea" rows={4} value={message} onChange={e => setMessage(e.target.value)} />
         </Form.Group>
-        <Button type="submit">Send</Button>
+        <Button type="submit">Отправить</Button>
       </Form>
 
     </div>
